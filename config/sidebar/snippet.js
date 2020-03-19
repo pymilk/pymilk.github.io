@@ -1,0 +1,1 @@
+module.exports = [{'title': 'python', 'path': '/snippet/python/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': ['/snippet/python/matplotlib.md', '/snippet/python/numpy.md', '/snippet/python/pandas.md']}]

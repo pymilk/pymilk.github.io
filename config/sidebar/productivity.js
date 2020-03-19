@@ -1,0 +1,1 @@
+module.exports = [{'title': 'excel', 'path': '/productivity/excel/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': []}, {'title': 'mac', 'path': '/productivity/mac/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': []}, {'title': 'word', 'path': '/productivity/word/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': []}]

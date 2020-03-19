@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PyCharm安装Lua插件 | Joy小学堂</title>
+    <meta name="description" content="让编程成为一种乐趣和生产力!">
+    <meta name="generator" content="VuePress 1.3.1">
+    <link rel="icon" href="/images/logo.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?9f7fe5852a05d6e87a33006e7967d1b6";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+            </script>
+    
+    <link rel="preload" href="/assets/css/0.styles.84742488.css" as="style"><link rel="preload" href="/assets/js/app.246e7364.js" as="script"><link rel="preload" href="/assets/js/2.ac0e51c3.js" as="script"><link rel="preload" href="/assets/js/37.f6dc63c5.js" as="script"><link rel="preload" href="/assets/js/3.e7578487.js" as="script"><link rel="prefetch" href="/assets/js/10.7a76a5c3.js"><link rel="prefetch" href="/assets/js/100.f1aaf05a.js"><link rel="prefetch" href="/assets/js/101.6c1ba9e6.js"><link rel="prefetch" href="/assets/js/102.908db249.js"><link rel="prefetch" href="/assets/js/103.c241eb9b.js"><link rel="prefetch" href="/assets/js/104.dc6eb9d7.js"><link rel="prefetch" href="/assets/js/11.857a2c50.js"><link rel="prefetch" href="/assets/js/12.77419d37.js"><link rel="prefetch" href="/assets/js/13.0e0b14df.js"><link rel="prefetch" href="/assets/js/14.f4eb71e7.js"><link rel="prefetch" href="/assets/js/15.703ba482.js"><link rel="prefetch" href="/assets/js/16.6d7193fc.js"><link rel="prefetch" href="/assets/js/17.d36bf309.js"><link rel="prefetch" href="/assets/js/18.522d6776.js"><link rel="prefetch" href="/assets/js/19.3394828f.js"><link rel="prefetch" href="/assets/js/20.a2a60b28.js"><link rel="prefetch" href="/assets/js/21.b251a2e6.js"><link rel="prefetch" href="/assets/js/22.9467a8c2.js"><link rel="prefetch" href="/assets/js/23.435ee730.js"><link rel="prefetch" href="/assets/js/24.75cf600c.js"><link rel="prefetch" href="/assets/js/25.c612784c.js"><link rel="prefetch" href="/assets/js/26.288eb4d8.js"><link rel="prefetch" href="/assets/js/27.21319e49.js"><link rel="prefetch" href="/assets/js/28.24e10a6d.js"><link rel="prefetch" href="/assets/js/29.c412c7b2.js"><link rel="prefetch" href="/assets/js/30.ed1cd468.js"><link rel="prefetch" href="/assets/js/31.68b18e06.js"><link rel="prefetch" href="/assets/js/32.c1a3d9cf.js"><link rel="prefetch" href="/assets/js/33.14e6b561.js"><link rel="prefetch" href="/assets/js/34.6bc6e305.js"><link rel="prefetch" href="/assets/js/35.1087821c.js"><link rel="prefetch" href="/assets/js/36.93847ecf.js"><link rel="prefetch" href="/assets/js/38.f935ed32.js"><link rel="prefetch" href="/assets/js/39.1c153eb3.js"><link rel="prefetch" href="/assets/js/4.ad14a03b.js"><link rel="prefetch" href="/assets/js/40.2b5cad98.js"><link rel="prefetch" href="/assets/js/41.553a8864.js"><link rel="prefetch" href="/assets/js/42.c383f2b9.js"><link rel="prefetch" href="/assets/js/43.9ecf8eae.js"><link rel="prefetch" href="/assets/js/44.f368de26.js"><link rel="prefetch" href="/assets/js/45.e8996118.js"><link rel="prefetch" href="/assets/js/46.4990c99c.js"><link rel="prefetch" href="/assets/js/47.639ab911.js"><link rel="prefetch" href="/assets/js/48.54fa39ae.js"><link rel="prefetch" href="/assets/js/49.e7bfcf3b.js"><link rel="prefetch" href="/assets/js/5.e05650f0.js"><link rel="prefetch" href="/assets/js/50.ade61087.js"><link rel="prefetch" href="/assets/js/51.93618b20.js"><link rel="prefetch" href="/assets/js/52.0ce2dd43.js"><link rel="prefetch" href="/assets/js/53.118ef746.js"><link rel="prefetch" href="/assets/js/54.9f0cf5b2.js"><link rel="prefetch" href="/assets/js/55.caaac3b7.js"><link rel="prefetch" href="/assets/js/56.e3125f53.js"><link rel="prefetch" href="/assets/js/57.5cf33439.js"><link rel="prefetch" href="/assets/js/58.ee46d513.js"><link rel="prefetch" href="/assets/js/59.e6ae1a32.js"><link rel="prefetch" href="/assets/js/6.8b493e06.js"><link rel="prefetch" href="/assets/js/60.c612fd05.js"><link rel="prefetch" href="/assets/js/61.45c264bd.js"><link rel="prefetch" href="/assets/js/62.7a0ae376.js"><link rel="prefetch" href="/assets/js/63.305ba309.js"><link rel="prefetch" href="/assets/js/64.135e2c89.js"><link rel="prefetch" href="/assets/js/65.4ac5abca.js"><link rel="prefetch" href="/assets/js/66.84527a1e.js"><link rel="prefetch" href="/assets/js/67.cfa44212.js"><link rel="prefetch" href="/assets/js/68.1de2c265.js"><link rel="prefetch" href="/assets/js/69.15ad8a93.js"><link rel="prefetch" href="/assets/js/7.a46cbbad.js"><link rel="prefetch" href="/assets/js/70.96557b6e.js"><link rel="prefetch" href="/assets/js/71.6d05a942.js"><link rel="prefetch" href="/assets/js/72.9aac71d5.js"><link rel="prefetch" href="/assets/js/73.8ef09e69.js"><link rel="prefetch" href="/assets/js/74.a07e52c4.js"><link rel="prefetch" href="/assets/js/75.c77095d1.js"><link rel="prefetch" href="/assets/js/76.e6b3bf3c.js"><link rel="prefetch" href="/assets/js/77.e5fb62b4.js"><link rel="prefetch" href="/assets/js/78.04353540.js"><link rel="prefetch" href="/assets/js/79.8ae94d09.js"><link rel="prefetch" href="/assets/js/8.10963a63.js"><link rel="prefetch" href="/assets/js/80.0ae65b85.js"><link rel="prefetch" href="/assets/js/81.05e28a80.js"><link rel="prefetch" href="/assets/js/82.f4541217.js"><link rel="prefetch" href="/assets/js/83.ecd1d1c3.js"><link rel="prefetch" href="/assets/js/84.fb10cf56.js"><link rel="prefetch" href="/assets/js/85.35fd51d6.js"><link rel="prefetch" href="/assets/js/86.f2d964ea.js"><link rel="prefetch" href="/assets/js/87.154681a8.js"><link rel="prefetch" href="/assets/js/88.6eca87af.js"><link rel="prefetch" href="/assets/js/89.66bccaac.js"><link rel="prefetch" href="/assets/js/9.a39fc63e.js"><link rel="prefetch" href="/assets/js/90.5851e3c2.js"><link rel="prefetch" href="/assets/js/91.80bcd93d.js"><link rel="prefetch" href="/assets/js/92.985ffc9e.js"><link rel="prefetch" href="/assets/js/93.50518834.js"><link rel="prefetch" href="/assets/js/94.561cfa48.js"><link rel="prefetch" href="/assets/js/95.9ff52f6e.js"><link rel="prefetch" href="/assets/js/96.73dc9200.js"><link rel="prefetch" href="/assets/js/97.79f1840e.js"><link rel="prefetch" href="/assets/js/98.823f22ce.js"><link rel="prefetch" href="/assets/js/99.5d4abeac.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.84742488.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Joy小学堂</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python系列" class="dropdown-title"><span class="title">Python系列</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/基础语法/" class="nav-link">
+  基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/python/版本特性/" class="nav-link">
+  版本特性
+</a></li><li class="dropdown-item"><!----> <a href="/python/进阶/" class="nav-link">
+  进阶
+</a></li><li class="dropdown-item"><!----> <a href="/python/标准库/" class="nav-link">
+  标准库
+</a></li><li class="dropdown-item"><!----> <a href="/python/第三方库/" class="nav-link">
+  第三方库
+</a></li><li class="dropdown-item"><!----> <a href="/python/爬虫/" class="nav-link">
+  爬虫
+</a></li></ul></div></div><div class="nav-item"><a href="/joy/" class="nav-link">
+  乐趣
+</a></div><div class="nav-item"><a href="/productivity/" class="nav-link">
+  生产力
+</a></div><div class="nav-item"><a href="/man/" class="nav-link">
+  命令手册
+</a></div><div class="nav-item"><a href="/snippet/" class="nav-link">
+  代码片段
+</a></div><div class="nav-item"><a href="/note/" class="nav-link router-link-active">
+  零散笔记
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  关于我
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Python系列" class="dropdown-title"><span class="title">Python系列</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/python/基础语法/" class="nav-link">
+  基础语法
+</a></li><li class="dropdown-item"><!----> <a href="/python/版本特性/" class="nav-link">
+  版本特性
+</a></li><li class="dropdown-item"><!----> <a href="/python/进阶/" class="nav-link">
+  进阶
+</a></li><li class="dropdown-item"><!----> <a href="/python/标准库/" class="nav-link">
+  标准库
+</a></li><li class="dropdown-item"><!----> <a href="/python/第三方库/" class="nav-link">
+  第三方库
+</a></li><li class="dropdown-item"><!----> <a href="/python/爬虫/" class="nav-link">
+  爬虫
+</a></li></ul></div></div><div class="nav-item"><a href="/joy/" class="nav-link">
+  乐趣
+</a></div><div class="nav-item"><a href="/productivity/" class="nav-link">
+  生产力
+</a></div><div class="nav-item"><a href="/man/" class="nav-link">
+  命令手册
+</a></div><div class="nav-item"><a href="/snippet/" class="nav-link">
+  代码片段
+</a></div><div class="nav-item"><a href="/note/" class="nav-link router-link-active">
+  零散笔记
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  关于我
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/note/PyCharm/" class="sidebar-heading clickable router-link-active open"><span>PyCharm</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/note/PyCharm/PyCharm中配置PEP8.html" class="sidebar-link">PyCharm中配置PEP8</a></li><li><a href="/note/PyCharm/PyCharm升级后启动报错.html" class="sidebar-link">PyCharm升级后启动报错</a></li><li><a href="/note/PyCharm/PyCharm安装Lua插件.html" class="active sidebar-link">PyCharm安装Lua插件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/note/PyCharm/PyCharm安装Lua插件.html#一、安装emmylua" class="sidebar-link">一、安装EmmyLua</a></li><li class="sidebar-sub-header"><a href="/note/PyCharm/PyCharm安装Lua插件.html#二、安装luasocket" class="sidebar-link">二、安装luasocket</a></li><li class="sidebar-sub-header"><a href="/note/PyCharm/PyCharm安装Lua插件.html#三、示例" class="sidebar-link">三、示例</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/note/Python/" class="sidebar-heading clickable"><span>Python</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/note/其它/" class="sidebar-heading clickable"><span>其它</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/note/搭建个人博客/" class="sidebar-heading clickable"><span>搭建个人博客</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/note/爬虫/" class="sidebar-heading clickable"><span>爬虫</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="pycharm安装lua插件"><a href="#pycharm安装lua插件" class="header-anchor">#</a> PyCharm安装Lua插件</h1> <p><strong>请根据笔记的写作日期，选择性阅读。</strong></p> <blockquote><p><strong>作者：</strong> <a href="/about/">放羊的大少爷</a><br> <strong>Home：</strong> <a href="/" class="router-link-active">joynoting.com</a><br> <strong>写作日期：</strong> 2019-01-23<br> <strong>系统：</strong> Mac@10.14.2<br> <strong>软件版本：</strong><br>
+PyCharm@2018.3.3<br>
+Lua@5.3.5<br>
+EmmyLua@1.2.6<br> <strong>参考：</strong><br> <a href="https://github.com/EmmyLua/IntelliJ-EmmyLua" target="_blank" rel="noopener noreferrer">EmmyLua<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://luacheck.readthedocs.io/en/stable/index.html" target="_blank" rel="noopener noreferrer">luacheck<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></blockquote> <hr> <p>学习某种语言，编写代码的时候就需要一款优秀的IDE，Lua 也不例外，这里推荐两款，两款都是免费的。</p> <ul><li>ZeroBrane Studio</li> <li>IntelliJ IDEA + EmmyLua 插件（国人编写的插件）</li></ul> <p>本篇教授如何在 PyCharm 中配置 EmmyLua，PyCharm 也是 IntelliJ IDEA 系列，所以本教程应该也适用于 IntelliJ IDEA。</p> <hr> <h2 id="一、安装emmylua"><a href="#一、安装emmylua" class="header-anchor">#</a> 一、安装EmmyLua</h2> <p>点击菜单栏 &gt; Preferences，选择左侧的 Plugins，然后在右侧的搜索栏输入 &quot;EmmyLua&quot; 搜索安装即可。</p> <p><img src="/content/images/2019/01/emmylua01.jpg" alt="emmylua01"></p> <hr> <h2 id="二、安装luasocket"><a href="#二、安装luasocket" class="header-anchor">#</a> 二、安装luasocket</h2> <p>为什么安装 luasocket 呢？原因很简单，因为 EmmyLua 插件依赖于它。</p> <p>尝试了编译安装，以及一堆网上教程之后，都是失败。</p> <p>所以 <strong>安装 luasocket 请务必按照以下步骤。</strong></p> <ol><li>先卸载Lua，再安装Lua</li></ol> <p>如果由于某些原因，brew 已经帮你安装好了 Lua，那么务必请先进行卸载。</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 卸载 lua</span>
+brew uninstall lua
+
+<span class="token comment"># 安装 lua</span>
+brew <span class="token function">install</span> lua
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li>安装luarocks</li></ol> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 使用 brew 安装 luarocks</span>
+brew <span class="token function">install</span> luarocks
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="3"><li>安装luasocket</li></ol> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 使用 luarocks 安装 luarocks</span>
+luarocks <span class="token function">install</span> luasocket
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><blockquote><p>注：如果使用自带 lua 不能成功安装 luasocket，那么有必要卸载 lua 并重新安装 lua。</p></blockquote> <p>至此，配置完成，我们可以愉快的在 PyCharm 中编写 Lua 脚本了。</p> <p><img src="/content/images/2019/01/emmylua02.jpg" alt="emmylua02"></p> <hr> <h2 id="三、示例"><a href="#三、示例" class="header-anchor">#</a> 三、示例</h2> <p>首次运行某程序脚本时需要点击两次 run（▶️）按钮，再点击一次 Pesume Program（⏯）才能查看程序运行结果。</p> <p><img src="/content/images/2019/01/emmylua03-2.gif" alt="emmylua03-2"></p> <p>如果是第二次运行该程序的话，只需要点击一次 run（▶️）按钮，再点击一次 Pesume Program（⏯）按钮即可。</p> <p>还可以为 EmmyLua 插件配置 luacheck，有兴趣的可以参照官往自行探索。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新时间:</span> <span class="time">2020/3/13 下午12:44:00</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note/PyCharm/PyCharm升级后启动报错.html" class="prev">
+        PyCharm升级后启动报错
+      </a></span> <span class="next"><a href="/note/Python/Anaconda打不开怎么办.html">
+        Anaconda打不开怎么办
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----><canvas id="vuepress-canvas-cursor"></canvas><div id="goTop" class="hide-cat" data-v-b0a1babe></div><div class="container" data-v-0178ff65><canvas id="live2d" width="280" height="250" class="live2d-right" data-v-0178ff65></canvas></div><canvas id="vuepress-canvas-ribbon"></canvas></div></div>
+    <script src="/assets/js/app.246e7364.js" defer></script><script src="/assets/js/2.ac0e51c3.js" defer></script><script src="/assets/js/37.f6dc63c5.js" defer></script><script src="/assets/js/3.e7578487.js" defer></script>
+  </body>
+</html>

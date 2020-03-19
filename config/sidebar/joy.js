@@ -1,0 +1,1 @@
+module.exports = [{'title': 'arcade', 'path': '/joy/arcade/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': ['/joy/arcade/绘制Microbit.md']}, {'title': 'turtle', 'path': '/joy/turtle/', 'collapsable': 'true', 'sidebarDepth': 2, 'children': []}]
